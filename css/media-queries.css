@@ -1,0 +1,32 @@
+@media (min-width: 400px) {
+    .featured-gallery-item {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        /* height: 60vh; */
+    }
+
+    h1 {
+        font-size: clamp(1rem, 1rem + 4vw, 6rem);
+        width: 70%;
+    }
+
+    .hero-rider {
+        width: 70%;
+    }
+}
+
+@media (min-width: 550px) {
+    .featured-gallery-items {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 600px) {}
+
+
+@media (min-width: 750px) {}
+
+
+@media (min-width: 900px) {}
