@@ -382,3 +382,8 @@ h1 {
 .gallery-item-description {
     margin-bottom: 0;
 }
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
