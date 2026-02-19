@@ -32,6 +32,17 @@
     .gallery-item-content-outer p {
         font-size: clamp(.5rem, .4rem + 2vw, 2rem);
     }
+
+    /*Statistics section*/
+    .stats-data {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .stats-item {
+        width: 49%;
+    }
 }
 
 
@@ -39,6 +50,8 @@
     .featured-gallery-item {
         width: 80%;
     }
+
+    
 }
 
 
@@ -66,4 +79,28 @@
 }
 
 
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+    /*** Statistics Section **/
+    .stats-item {
+        width: 24%;
+    }
+}
+
+
+/*==================================*/
+/* Testimonials section specific queries */
+/*==================================*/
+
+/* Tablet */
+@media (max-width: 992px) {
+  .testimonial-item {
+    flex: 0 0 50%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .testimonial-item {
+    flex: 0 0 100%;
+  }
+}

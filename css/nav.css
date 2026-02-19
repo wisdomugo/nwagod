@@ -71,7 +71,7 @@
 }
 
 .navbar-links a:hover {
-    background-color: var(--deepyellow);
+    background-color: var(--accent);
 }
 
 .hamburger {
