@@ -90,6 +90,46 @@
     .leader-card img {
         height: 48vh;
     }
+
+    /* Contact Page Sectionsss */
+    .form-set-enquiry-type {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .form-set-enquiry-type h3 {
+        width: 100%;
+    }
+
+    .form-set-enquiry-type .form-group {
+        width: 49%;
+    }
+}
+
+@media (min-width: 550px) {
+    .form-set-inputs {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .form-set-inputs .form-group {
+        width: 48%;
+    }
+
+    .form-set-inputs .form-group:last-child {
+        width: 100%;
+    }
+
+    .form-set-inputs .form-group input {
+        border-radius: 0;
+    }
+
+    .program-article {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -135,6 +175,29 @@
 
     .leader-card img {
         height: 45vh;
+    }
+
+    /* Contact Page Sectionsss */
+
+    .container-contact-hero p {
+        width: 70%;
+    }
+
+    .container-contact-meta {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        width: 48%;
+    }
+
+    .business-hours {
+        width: 48%;
+        padding-left: 1em;
+        align-self: center;
+        border: none;
+        border-left: solid 1px var(--ashy);
     }
 
 }
@@ -208,6 +271,19 @@
         margin-bottom: 1em;
     }
 
+    /* Services Page Sectionsss */
+    .program-articles {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+      .program-article {
+        width: 48%;
+        margin: 0 0;
+        margin-bottom: 1.5em;
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -246,6 +322,11 @@
     .msgss {
         padding-left: .7em;
         padding-right: .7em;
+    }
+
+    /* Contact Sectionss */
+    .container-contact-form {
+        width: 90%;
     }
 }
 

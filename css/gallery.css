@@ -1,0 +1,197 @@
+:root {
+  --primary: #0e7c66;
+  --dark: #1f1f1f;
+  --light-gray: #f5f7f8;
+  --transition: 0.4s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: var(--dark);
+}
+
+.gallery-section {
+  padding: 1rem 1.2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===============================
+   HEADER
+================================= */
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gallery-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: .5rem;
+}
+
+.gallery-header p {
+  opacity: 0.7;
+}
+
+/* ===============================
+   TABS
+================================= */
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: .5rem;
+}
+
+.tab-btn {
+  padding: .6rem 1.2rem;
+  border: none;
+  border-right: solid 1px var(--transparent-dark);
+  background: none;
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 500;
+}
+.tab-btn i{
+    margin-right: .5em;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* ===============================
+   GRID (MOBILE FIRST)
+================================= */
+
+.gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  opacity: 1;
+  transition: opacity .4s ease;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform var(--transition);
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  transition: transform .6s ease, filter .6s ease;
+  filter: grayscale(30%);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+  filter: grayscale(0%);
+}
+
+/* Overlay */
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: var(--transition);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* ===============================
+   RESPONSIVE BREAKPOINTS
+================================= */
+
+/* Tablet */
+@media(min-width: 600px){
+  .gallery-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gallery-item {
+    flex: 0 0 calc(50% - .6rem);
+  }
+}
+
+/* Desktop */
+@media(min-width: 992px){
+  .gallery-item {
+    flex: 0 0 calc(33.333% - .8rem);
+  }
+}
+
+/* Large Desktop */
+@media(min-width: 1200px){
+  .gallery-item {
+    flex: 0 0 calc(25% - .9rem);
+  }
+}
+
+/* ===============================
+   LIGHTBOX
+================================= */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--transition);
+  padding: 1rem;
+  z-index: 999;
+}
+
+.lightbox.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lightbox-content {
+  max-width: 900px;
+  width: 100%;
+  position: relative;
+}
+
+.lightbox-content img,
+.lightbox-content iframe {
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
