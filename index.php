@@ -1,0 +1,610 @@
+<?php
+$page = "Home";
+include_once("includes/header.php")
+?>
+
+
+    <section class="section-hero">
+        <div class="hero-overlay">
+            <!-- <div class="hero-background"></div> -->
+            <div class="container container-hero flex-column vpadding-small">
+                <a href="javascript:void" class="btn btn-clear btn-rounded"><i
+                        class="fa fa-regular fa-heart"></i>Empowering Girls Since 2020</a>
+                <h1>Empowering the Next Generation of Resilient Women</h1>
+                <p class="hero-rider">Nwagod Charity Foundation provides education, vocational training, and mental
+                    wellness for teenage girls and young single mothers.</p>
+                <p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-regular fa-heart"></i>Donate to Our Cause</a>
+                    <a href="#" class="btn btn-clear">Contact Us -></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-impact-gallery">
+        <div class="container-fluid container-impact-gallery vpadding-medium">
+            <a href="javascript:void" class="btn btn-transparent btn-rounded">
+                <i class="fa fa-solid fa-photo-film"></i>
+                Our Impact Gallery
+            </a>
+
+            <h2 class="section-title">Stories of Transformation</h2>
+            <p class="section-description"> Witness the real impact of our programs through the stories and experiences
+                of the young women and mothers we serve.
+            </p>
+
+            <div class="featured-gallery-items">
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <!-- <div class="gallery-item-overlay"></div> -->
+                        <iframe src="https://www.youtube.com/embed/B-cWcKpOwyw?si=Uh2WRQJCK_QicbYc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-video">
+                        <i class="fa fa-solid fa-video"></i>
+                        Video
+                    </a>
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+
+
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <div class="gallery-item-overlay"></div>
+                        <img class="featured-gallery-image" src="images/gallery/banner1.png" alt="Gallery Image 1">
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-photo">
+                        <i class="fa fa-solid fa-video"></i>
+                        Photo
+                    </a>
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="featured-gallery-items">
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <div class="gallery-item-overlay"></div>
+                        <img class="featured-gallery-image" src="images/gallery/banner3.png" alt="Gallery Image 1">
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-photo">
+                        <i class="fa fa-solid fa-photo-film"></i>
+                        Photo
+                    </a>
+
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+
+
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <div class="gallery-item-overlay"></div>
+                        <img class="featured-gallery-image" src="images/gallery/banner2.png" alt="Gallery Image 1">
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-photo">
+                        <i class="fa fa-solid fa-photo-film"></i>
+                        Photo
+                    </a>
+
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <div class="gallery-item-overlay"></div>
+                        <img class="featured-gallery-image" src="images/gallery/banner4.png" alt="Gallery Image 1">
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-photo">
+                        <i class="fa fa-solid fa-photo-film"></i>
+                        Photo
+                    </a>
+
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+
+                <article class="featured-gallery-item">
+                    <div class="image-container">
+                        <div class="gallery-item-overlay"></div>
+                        <img class="featured-gallery-image" src="images/gallery/banner5.png" alt="Gallery Image 1">
+                    </div>
+
+                    <a href="javascript:void" class="btn btn-clear btn-rounded btn-gallery-photo">
+                        <i class="fa fa-solid fa-photo-film"></i>
+                        Photo
+                    </a>
+
+                    <div class="gallery-item-content-inner">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-date"><i class="fa fa-regular fa-calendar"></i>Nov 12, 2025</p>
+                    </div>
+
+                    <div class="gallery-item-content-outer">
+                        <h3 class="gallery-item-description">Our 2025 Empowerment Summit Highlights</h3>
+                        <p class="meta-venue"><i class="fa fa-solid fa-location-dot"></i>Community Center, Owerri</p>
+                    </div>
+                </article>
+            </div>
+
+            <a href="#" class="btn btn-transparent">View Full Gallery -></a>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="section-stats">
+        <div class="container container-stats vpadding-medium">
+            <a href="javascript:void" class="btn btn-transparent btn-rounded">
+                <i class="fa fa-solid fa-bolt"></i>
+                Our Reach & Impact
+            </a>
+
+            <h2 class="section-title">Measurable Change in Numbers</h2>
+            <p class="section-description">
+                Every statistic represents a life touched, a dream supported, and a future transformed through our
+                programs.
+            </p>
+
+           <div class="stats-data">
+                <article class="stats-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-graduation-cap stats-fa stats-fa-greeny"></i>
+                    </a>
+                    <h2 class="stat-number">50+</h2>
+                    <p class="stat-description">Girls and young single mother college graduates.</p>
+                </article>
+
+                <article class="stats-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-face-smile stats-fa stats-fa-bluey"></i>
+                    </a>
+                    <h2 class="stat-number">500+</h2>
+                    <p class="stat-description">Mental Health Supports Provided</p>
+                </article>
+
+                <article class="stats-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-heart stats-fa stats-fa-accenty"></i>
+                    </a>
+                    <h2 class="stat-number">100+</h2>
+                    <p class="stat-description">Young single mothers receiving parental support</p>
+                </article>
+
+                <article class="stats-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-battery-full stats-fa stats-fa-greeny"></i>
+                    </a>
+                    <h2 class="stat-number">500+</h2>
+                    <p class="stat-description">Young single mothers empowered through
+                        vocational trainings.</p>
+                </article>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="section-programs">
+        <div class="container container-programs vpadding-medium">
+            <a href="javascript:void" class="btn btn-transparent btn-rounded">
+                <i class="fa fa-solid fa-bolt"></i>
+                Our Services
+            </a>
+
+            <h2 class="section-title">Comprehensive Support Programs</h2>
+            <p class="section-description">
+                We offer a range of integrated services designed to address the unique needs of teenage girls, young
+                single mothers, and their children.
+            </p>
+
+            <div class="programs-data">
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-graduation-cap programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">Education Sponsorship</h3>
+                    <p class="stat-description">Full and partial scholarships for talented girls and children from
+                        underserved communities to access quality education.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        Children & Teenage Girls
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-suitcase programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">Vocational Training</h3>
+                    <p class="stat-description">Hands-on skills training in tailoring, fashion design, digital literacy,
+                        and other in-demand trades for economic empowerment.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        Young Single Mothers
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-book-open programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">GED Training Programs</h3>
+                    <p class="stat-description">Comprehensive General Education Development courses to help young
+                        mothers and girls earn their high school equivalency.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        Teenage Girls & Mothers
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-heart programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">Mental Health & Counseling</h3>
+                    <p class="stat-description">Professional counseling and wellness services addressing trauma, stress,
+                        and emotional wellbeing for holistic support.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        Teenage Girls & Mothers
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-users programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">Parenting Support</h3>
+                    <p class="stat-description">Guidance programs and community support groups helping young mothers
+                        develop effective parenting skills and confidence.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        Young Single Mothers
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+                <article class="program-item">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-handshake programs-fa"></i>
+                    </a>
+                    <h3 class="program-title">Community Outreach</h3>
+                    <p class="stat-description">Mobile clinics, health awareness campaigns, and intervention programs
+                        reaching remote and underserved communities.</p>
+
+                    <a href="javascript:void" class="btn btn-lightblue btn-rounded">
+                        <i class="fa fa-solid fa-user"></i>
+                        All Beneficiaries
+                    </a>
+                    <a href="#" class="btn btn-transparent-unbordered">Learn More -></a>
+                </article>
+
+            </div>
+            <a href="#" class="btn btn-primary">Explore All Programs -></a>
+
+        </div>
+
+    </section>
+
+
+    <section class="section-testimonials">
+        <div class="container container-testimonials vpadding-medium">
+            <a href="javascript:void" class="btn btn-transparent btn-rounded">
+                <i class="fa fa-solid fa-bolt"></i>
+                Success Stories
+            </a>
+
+            <h2 class="section-title">Voices of Change</h2>
+            <p class="section-description">
+                Hear directly from the young women and mothers whose lives have been transformed through our programs.
+            </p>
+
+            <div class="testimonials-data">
+                <div class="slider-track">
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">"Nwagod Foundation helped me pursue my dreams. I was able
+                            to
+                            complete my
+                            secondary education, now I'm in university studying engineering. I'm grateful"</p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Chioma Okafor,</h4> &nbsp;
+                            <p>Education Sponsorship Recipient</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">
+                            "The tailoring and fashion design program transformed my life. I now run my own successful
+                            clothing business and can provide for my two children. Thank you, Nwagod!"
+                        </p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Juliet Nnam,</h4> &nbsp;
+                            <p>Vocational Training Graduate</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">
+                            "The counseling services helped me overcome depression and anxiety. The counselors were
+                            compassionate and professional. I feel empowered to face life's challenges now."
+                        </p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Alvin Mercy,</h4> &nbsp;
+                            <p>Mental Health Support Beneficiary</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">
+                            "The tailoring and fashion design program transformed my life. I now run my own successful
+                            clothing business and can provide for my two children. Thank you, Nwagod!"
+                        </p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Juliet Nnam,</h4> &nbsp;
+                            <p>Vocational Training Graduate</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">
+                            "The tailoring and fashion design program transformed my life. I now run my own successful
+                            clothing business and can provide for my two children. Thank you, Nwagod!"
+                        </p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Juliet Nnam,</h4> &nbsp;
+                            <p>Vocational Training Graduate</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-item">
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-quote-left testimonials-fa"></i>
+                        </a>
+                        <p class="testimony">
+                            "The tailoring and fashion design program transformed my life. I now run my own successful
+                            clothing business and can provide for my two children. Thank you, Nwagod!"
+                        </p>
+                        <a href="javascript:void">
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                            <i class="fa fa-solid fa-star testimony-rating-fa"></i>
+                        </a>
+
+                        <div class="testimonial-meta">
+                            <a href="javascript:void">
+                                <i class="fa fa-solid fa-user testifier-fa"></i>
+                            </a>
+                            <h4>Juliet Nnam,</h4> &nbsp;
+                            <p>Vocational Training Graduate</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="navigators">
+                <button class="prev-btn">&#10094;</button>
+
+                <p class="dots-container">
+                    <!-- <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span> -->
+                </p>
+
+                <button class="next-btn">&#10095;</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-ctas">
+        <div class="container container-ctas vpadding-medium">
+            <h2 class="section-title">Make a Difference Today</h2>
+            <p class="section-description">
+                Your support directly empowers teenage girls, young single mothers, and their children through
+                education, vocational training, and mental health services.
+            </p>
+
+            <p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-regular fa-heart"></i>Donate Now</a>
+                <a href="#" class="btn btn-transparent">Learn About Our Programs -></a>
+            </p>
+        </div>
+    </section>
+
+   <section class="section-contact">
+        <div class="container container-contact vpadding-medium">
+            <a href="javascript:void" class="btn btn-transparent btn-rounded">
+                <i class="fa fa-solid fa-message"></i>
+                Get In touch
+            </a>
+
+            <h2 class="section-title">We'd Love to Hear From You</h2>
+            <p class="section-description">
+                Have questions about our programs? Want to partner with us? Or simply want to learn more? Reach out to
+                our team.
+            </p>
+
+            <div class="contact-channels">
+                <article class="contact-channel">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-envelope programs-fa"></i>
+                    </a>
+                    <h5>Email Us</h5>
+                    <p>Send us your inquiries and we'll respond within 24 hours</p>
+                    <h6>info@nwagodfoundation.org
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </h6>
+                </article>
+
+                <article class="contact-channel">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-phone programs-fa"></i>
+                    </a>
+                    <h5>Call Us</h5>
+                    <p>Speak directly with our team during business hours</p>
+                    <h6> +234-09025040890 <br> +234-07074401398
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </h6>
+                </article>
+
+                <article class="contact-channel">
+                    <a href="javascript:void">
+                        <i class="fa fa-solid fa-location-dot programs-fa"></i>
+                    </a>
+                    <h5>Visit Us</h5>
+                    <p>Visit our office for in-person consultations</p>
+                    <h6>Sp104 Silas Plaza, Klm 6 Orlu Road, Egbeada, Beside Imo International Market, Mbaitoli LGA, Imo
+                        State
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </h6>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-send-message">
+        <div class="container-fluid container-send-message vpadding-medium">
+            <h3>Prefer to Send a Message?</h3>
+            <p>Fill out our contact form and we'll get back to you as soon as possible with information about how we can
+                help.</p>
+
+            <p>
+                <a href="#" class="btn btn-primary"><i class="fa fa-regular fa-envelope"></i>Send us a Message</a>
+            </p>
+        </div>
+    </section>
+
+<?php
+include_once("includes/footer.php")
+?>
